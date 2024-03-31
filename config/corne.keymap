@@ -20,7 +20,7 @@ $define COLEMAK 1
         conditional_layers {
                 compatible = "zmk,conditional-layers";
                 tri_layer {
-                        if-layers = <RSE LWR>;
+                        if-layers = <RAISE LOWER>;
                         then-layer = <TRI>;
                 };
         };
